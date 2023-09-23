@@ -1,0 +1,8 @@
+@keyframes moveClouds {
+  0% {
+    right: -200px;
+  }
+  100% { 
+    right: calc(100% - 200px); 
+  }
+}

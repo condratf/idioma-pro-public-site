@@ -4,7 +4,8 @@
   align-items: center;
   justify-content: flex-start;
   height: 3rem;
-  padding: 1rem;
+  padding: 2rem;
+  background-color: rgba($color: #000000, $alpha: 0.035);
 }
 
 .link {
@@ -12,8 +13,10 @@
   text-transform: uppercase;
   text-decoration: none;
   color: var(--primary-dark);
-  transition: all 0.3s;
+  transition: all 0.5s;
   &:hover {
-   transform: scale(1.1);
+   transform: scale(1.05);
   }
+  font-size: 1.35rem;
+  margin-right: 1rem;
 }

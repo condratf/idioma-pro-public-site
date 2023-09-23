@@ -1,0 +1,38 @@
+.footer {
+  padding: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: rgba($color: #000000, $alpha: 0.035);
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.link {
+  padding: 0.3rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--primary-dark);
+  transition: all 0.5s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  font-size: 1rem;
+}
+
+.linkInfo {
+  font-size: 0.9rem;
+  opacity: 0.7;
+
+  &:hover {
+    transform: none;
+  }
+}

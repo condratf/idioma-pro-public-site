@@ -1,8 +1,13 @@
 import { FC } from 'react'
+// local
+import { ContactForm } from '@/components/shared'
 
 const Contacts: FC = () => {
   return (
-    <div>Contacts</div>
+    <div>
+      <ContactForm />
+
+    </div>
   )
 }
 
