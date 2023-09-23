@@ -1,0 +1,17 @@
+{
+  "Layout": {
+    "Header": {
+      "home": "home",
+      "contacts": "contacts",
+      "services": "services"
+    },
+    "Footer": {
+      "home": "home",
+      "contacts": "contacts",
+      "services": "services"
+    }
+  },
+  "Home": {
+    "takeTest": "Take a test!"
+  }
+}

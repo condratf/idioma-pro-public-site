@@ -1,0 +1,17 @@
+{
+  "Layout": {
+    "Header": {
+      "home": "главная",
+      "contacts": "контакты",
+      "services": "сервисы"
+    },
+    "Footer": {
+      "home": "главная",
+      "contacts": "контакты",
+      "services": "сервисы"
+    }
+  },
+  "Home": {
+    "takeTest": "Пройди тест!"
+  }
+}
