@@ -15,11 +15,8 @@ export const metadata = {
   description: 'description',
 }
 
-type LayoutProps = PropsWithChildren<{
-  params: {locale: string}
-}>
-
-export default function Layout({children, params: {locale}} : LayoutProps) {
+export default function Layout({children} : PropsWithChildren<{}>) {
+  const locale = useLocale()
   if (!isValidLocale(locale)) notFound()
 
   return (

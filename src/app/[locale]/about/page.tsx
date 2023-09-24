@@ -1,15 +1,15 @@
 import { FC } from 'react'
 // local
-import { ContactForm } from '@/components/shared'
+import { AboutSection } from '@/components/about'
 // styles
 import styles from './styles.module.scss'
 
-const Contacts: FC = () => {
+const About: FC = () => {
   return (
     <div className={styles.container}>
-      <ContactForm />
+      <AboutSection />
     </div>
   )
 }
 
-export default Contacts
+export default About

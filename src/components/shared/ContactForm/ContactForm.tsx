@@ -2,9 +2,9 @@ import { revalidatePath } from 'next/cache'
 import { FC } from 'react'
 // local
 import { routes } from '@/routes'
+import { ArrayElement } from '@/utils'
 //styles
 import styles from './styles.module.scss'
-import { ArrayElement } from '@/utils'
 
 export const ContactForm: FC = () => {
   async function create(formData: FormData) {

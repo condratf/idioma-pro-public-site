@@ -1,18 +1,18 @@
 import { FC } from 'react'
 import Link from 'next/link'
+import { useTranslations } from 'next-intl'
 //local
 import { routeLinks } from '@/routes'
+import { classNames } from '@/utils'
 //styles
 import styles from './styles.module.scss'
-import { classNames } from '@/utils'
-import { useTranslations } from 'next-intl'
 
 export const Footer: FC = () => {
   const t = useTranslations('Layout')
   const info = ['Alejandra López', 'Moscow', '+3499999999']
 
   return (
-    <footer className={styles.footer}>
+    <footer className={classNames(styles.footer, 'pageFooter')}>
 
       <div className={styles.column}>
         {routeLinks.map(link => (

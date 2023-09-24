@@ -3,8 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  height: 3rem;
-  padding: 2rem;
+  padding: 1rem;
   background-color: rgba($color: #000000, $alpha: 0.035);
 }
 
@@ -16,6 +15,7 @@
   transition: all 0.5s;
   &:hover {
    transform: scale(1.05);
+   color: var(--orange-color);
   }
   font-size: 1.35rem;
   margin-right: 1rem;

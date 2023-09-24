@@ -3,12 +3,14 @@
     "Header": {
       "home": "home",
       "contacts": "contacts",
-      "services": "services"
+      "services": "services",
+      "about": "about"
     },
     "Footer": {
       "home": "home",
       "contacts": "contacts",
-      "services": "services"
+      "services": "services",
+      "about": "about"
     }
   },
   "Home": {

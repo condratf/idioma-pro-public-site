@@ -1,17 +1,19 @@
 {
   "Layout": {
     "Header": {
-      "home": "home",
+      "home": "inicio",
       "contacts": "contactos",
-      "services": "servicios"
+      "services": "servicios",
+      "about": "acerca"
     },
     "Footer": {
-      "home": "home",
+      "home": "inicio",
       "contacts": "contactos",
-      "services": "servicios"
+      "services": "servicios",
+      "about": "acerca"
     }
   },
   "Home": {
-    "takeTest": "Empieza un test!"
+    "takeTest": "¡Empieza un test!"
   }
 }

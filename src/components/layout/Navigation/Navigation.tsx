@@ -1,7 +1,8 @@
 import { FC } from 'react'
-import Link from 'next/link'
+// import Link from 'next/link'
 import { useTranslations } from 'next-intl'
 // local
+import { AnimatedLink, ChooseLocale } from '@/components/shared'
 import { routeLinks } from '@/routes'
 import { classNames } from '@/utils'
 // styles
@@ -12,14 +13,16 @@ export const Navigation: FC = () => {
   const t = useTranslations('Layout')
 
   return (
-    <nav className={classNames(styles.nav, 'z-20')}>
+    <nav className={classNames(styles.nav, 'z-20', 'pageHeader')}>
       {routeLinks.map(link => (
-        <Link key={link} href={link} className={styles.link}>
+        <AnimatedLink key={link} href={link} className={styles.link}>
           {
             t(`Header.${link.replace('/', '')}`)
           }
-        </Link>
-      ))} 
+        </AnimatedLink>
+      ))}
+
+      <ChooseLocale />
     </nav>
   )
 }
