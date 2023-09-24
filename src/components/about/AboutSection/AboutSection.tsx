@@ -10,13 +10,12 @@ export const AboutSection: FC = () => {
     <div className={styles.container}>
       <Image src={profeImg} alt='profe' />
 
-      <h1>Alejandra Lopez</h1>
+      <h1>Alejandra López Fontaiña</h1>
 
       <section>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit
-        Deleniti dolor,
-        vitae excepturi inventore quibusdam eos quas cupiditate,
-        tenetur assumenda iste ad exercitationem dolores repellat asperiores ipsam quod nam porro doloribus?
+        ¡Bienvenidos y bienvenidas!
+        Mi nombre es Alejandra y realizo asesoramiento lingüístico, correcciones de textos y también soy profesora de español como lengua extranjera.
+        No dudes en contactarme.
       </section>
     </div>
   )

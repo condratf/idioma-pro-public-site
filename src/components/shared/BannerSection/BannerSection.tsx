@@ -1,5 +1,8 @@
 import { FC } from 'react'
+import Link from 'next/link'
 import Image from 'next/image'
+// local
+import { routes } from '@/routes'
 // styles
 import styles from './styles.module.scss'
 // assets
@@ -12,7 +15,7 @@ import cloud3img from './assets/cloud_3.svg'
 export const BannerSection: FC = () => {
   return (
     <section className={styles.banner}>
-
+ 
       <h1>Lorem ipsum dolor sit amet</h1>
       
       <div className={styles.clouds}>
@@ -21,7 +24,10 @@ export const BannerSection: FC = () => {
         <Image src={cloud3img} alt='cloud-3' className="z-10"/>
       </div>
 
-      <Image src={mailImg} alt='mail' className="z-10"/>
+      <Link href={routes.Contacts} className="z-10">
+        <Image src={mailImg} alt='mail' />
+      </Link>
+
 
       <Image src={mainImg} alt='main' className='absolute z-0' />
 
