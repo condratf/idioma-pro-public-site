@@ -4,12 +4,13 @@ import { useTranslations } from 'next-intl'
 //local
 import { routeLinks } from '@/routes'
 import { classNames } from '@/utils'
+import { getFooterInfo } from './helpers'
 //styles
 import styles from './styles.module.scss'
 
 export const Footer: FC = () => {
   const t = useTranslations('Layout')
-  const info = ['Alejandra López', 'Moscow', '+3499999999']
+  const info = getFooterInfo()
 
   return (
     <footer className={classNames(styles.footer, 'pageFooter')}>
