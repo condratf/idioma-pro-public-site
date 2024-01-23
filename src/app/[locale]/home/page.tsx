@@ -3,12 +3,9 @@ import { FC } from 'react'
 import { BannerSection } from '@/components/shared'
 import { NivelTest } from '@/components/NivelTest'
 import { SuggestTest } from '@/components/home'
-import { db } from '@/modules/db'
+
 
 const Home: FC = async () => {
-  const posts = await db.post.findMany({ orderBy: { createdAt: 'desc' } })
- 
-  console.log({posts})
 
   return (
     <div>
